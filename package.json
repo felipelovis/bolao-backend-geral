@@ -1,0 +1,13 @@
+{
+  "name": "bolao-backend",
+  "version": "1.0.0",
+  "description": "Backend seguro para o Bolão Copa 2026",
+  "main": "api/login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.x"
+  }
+}
