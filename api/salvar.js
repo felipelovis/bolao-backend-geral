@@ -90,7 +90,8 @@ module.exports = async (req, res) => {
     }
 
     // URL do Google Apps Script (CONFIGURE AQUI!)
-   const APPS_SCRIPT_URL = process.env.APPS_SCRIPT_URL || 'https://script.google.com/macros/s/AKfycbziUvAZPEKU8faBoGK6c1PF5li3bKajPMC6PoRFYHGnQ-Mz0C5Mt9U9EeiliWElUOc0/exec';
+    const APPS_SCRIPT_URL = process.env.APPS_SCRIPT_URL || 'SUA_URL_DO_APPS_SCRIPT_AQUI';
+
     if (APPS_SCRIPT_URL === 'SUA_URL_DO_APPS_SCRIPT_AQUI') {
       return res.status(500).json({ error: 'Apps Script URL não configurada' });
     }
